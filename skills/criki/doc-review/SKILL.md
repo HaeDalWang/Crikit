@@ -44,11 +44,13 @@ Identify logical inconsistencies, technical inaccuracies, missing considerations
 ## Instructions
 
 1. Read the entire document before starting critique. Understand the full context.
-2. Identify the document type (architecture doc, API spec, PRD, RFC, etc.).
-3. For each dimension, systematically scan for issues.
-4. Cross-reference technical claims with official documentation.
-5. If the document references specific services or tools, verify the claims against their docs.
-6. Check for internal consistency — does section A agree with section B?
+2. Read `references/checklist.md` as a quick-scan guide before starting the review.
+3. Identify the document type (architecture doc, API spec, PRD, RFC, etc.).
+4. For each dimension, systematically scan for issues.
+5. Cross-reference technical claims with official documentation.
+6. For every issue found, use the **Universal Critique Format** and **Severity Definitions** from `GEMINI.md`.
+7. If the document references specific services or tools, verify the claims against their docs.
+8. Check for internal consistency — does section A agree with section B?
 
 ## Constraints
 - Do NOT critique writing style or grammar unless it causes ambiguity.

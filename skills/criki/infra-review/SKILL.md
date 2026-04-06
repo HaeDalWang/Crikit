@@ -46,10 +46,11 @@ Identify security misconfigurations, reliability risks, cost inefficiencies, and
 ## Instructions
 
 1. Identify the IaC tool and cloud provider from the code.
-2. Systematically review each dimension above.
-3. Cross-reference every finding with the official documentation of the specific tool/provider.
-4. Provide severity, evidence, and concrete remediation for each finding.
-5. If the infrastructure spans multiple services, review the interactions between them.
+2. Read `references/checklist.md` as a quick-scan guide before starting the review.
+3. Systematically review each dimension above.
+4. Cross-reference every finding with the official documentation of the specific tool/provider.
+5. For every issue found, use the **Universal Critique Format** and **Severity Definitions** from `GEMINI.md`.
+6. If the infrastructure spans multiple services, review the interactions between them.
 
 ## Constraints
 - Do NOT assume cloud provider — identify it from the code.

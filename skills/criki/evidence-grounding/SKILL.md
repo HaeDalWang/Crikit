@@ -12,26 +12,8 @@ Find, verify, and cite authoritative evidence for every technical claim. Ensure 
 
 ## Source Trust Hierarchy
 
-### Tier 1 — Authoritative (신뢰)
-- Official documentation (AWS, GCP, Azure, CNCF, HashiCorp, etc.)
-- RFC standards (IETF RFCs)
-- CVE / NVD security advisories
-- Language specifications (ECMAScript, Python PEP, Go spec, etc.)
-- Official style guides (Google, Airbnb, PEP 8, etc.)
-
-### Tier 2 — Acceptable (수용)
-- Peer-reviewed academic papers
-- Official blog posts from the vendor/maintainer
-- Official benchmarks and performance reports
-- Conference talks by core maintainers (with slides/video link)
-
-### Tier 3 — Rejected (거부)
-- Personal blogs
-- StackOverflow answers
-- Community forum posts
-- Medium / Dev.to articles
-- Unverified tutorials
-- AI-generated content without source
+Follow the **Authoritative Source Hierarchy** defined in `GEMINI.md`.
+That is the canonical, single source of truth for trust tiers.
 
 ## Instructions
 

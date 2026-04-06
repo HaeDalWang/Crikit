@@ -48,13 +48,10 @@ Identify every logical flaw, security vulnerability, performance bottleneck, and
 
 1. Read the provided code thoroughly. Understand the full context before critiquing.
 2. For each dimension above, systematically scan for issues.
-3. For every issue found:
-   - Classify severity (Critical / Major / Minor / Info)
-   - Explain WHY it is a problem (not just WHAT)
-   - Provide the authoritative source link
-   - Suggest a concrete fix with code example if applicable
-4. If the code is genuinely well-written in some aspect, acknowledge it briefly — but keep looking for flaws.
-5. Sort all findings by severity (Critical first).
+3. Before starting, read `references/checklist.md` as a quick-scan guide to ensure no common issue is missed.
+4. For every issue found, use the **Universal Critique Format** and **Severity Definitions** from `GEMINI.md`.
+5. If the code is genuinely well-written in some aspect, acknowledge it briefly — but keep looking for flaws.
+6. Sort all findings by severity (Critical first).
 
 ## Constraints
 - Do NOT fabricate CVE numbers or documentation links.

@@ -37,16 +37,8 @@ If the request spans multiple domains (e.g., code + infra), activate multiple su
 
 ## Output Format
 
-Always use this structure for every finding:
-
-```
-### [심각도] 항목 제목
-
-- **심각도**: Critical | Major | Minor | Info
-- **비판 내용**: 무엇이 잘못되었고 왜 문제인지
-- **근거**: 공식 문서 링크 또는 RFC 참조
-- **대안 제시**: 구체적인 수정 방법 또는 대안
-```
+Follow the **Universal Critique Format** defined in `GEMINI.md`.
+Use the **Severity Definitions** from `GEMINI.md`. Do NOT redefine them here.
 
 ## Final Summary
 
